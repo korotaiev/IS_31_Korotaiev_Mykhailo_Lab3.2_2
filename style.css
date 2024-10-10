@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: auto;
+    width: 100%;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  table {
+    width: 100vw;
+    height: 150vh;
+    border-collapse: collapse;
+    box-shadow: 3px 3px 5px #888;
+  }
+  
+  td {
+    border: 2px solid #000;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2vw;
+    font-weight: bold;
+  }
+  
+  .cell1,
+  .cell3 {
+    background-color: blue;
+    height: 10vh;
+    color: white;
+  }
+  
+  .cell2,
+  .cell5 {
+    background-color: orange;
+    width: 25vw;
+  }
+  
+  .cell4 {
+    background-color: white;
+    width: 50vw;
+  }
+  
